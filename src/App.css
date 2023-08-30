@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card-image {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  .title-and-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .ingredientes-list {
+    text-align: right;
+    margin: 5px 0;
+  }
+  
+  .ingredientes-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
